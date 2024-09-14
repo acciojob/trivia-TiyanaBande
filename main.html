@@ -3,11 +3,42 @@
 <html>
 
 <head>
+	<title>Trivia Quiz</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+		blockquote.quote {
+			max-width: 600px;
+			margin: 10px;
+			padding: 15px;
+			border-left: 8px solid green;
+			background-color: #f8fffe;
+			font-weight: bold;
+		}
+	</style>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<!--Question-->
+	<section class="quiz-section">
+		<h1>What is the capital of India?</h1>
+		<!--option with radio buttons-->
+		<label>
+			<input type="radio" name="capital" value="new-delhi">
+			New Delhi
+		</label>
+		<br>
+		<label>
+			<input type="radio" name="capital" value="mumbai">
+			Mumbai
+		</label>
+	</section>
+	<!--Quotation section-->
+	<blockquote class="quote">
+		"New Delhi is the capital of India and an administrative distric of NCT Delhi."
+		<cite>https://en.wikipedia.org/wiki/New_Delhi</cite>
+	</blockquote>
+	<!--entire body must be written by student -->
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
